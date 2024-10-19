@@ -1,0 +1,131 @@
+body{
+    background-color: #F9F9F9;
+   
+}
+html {
+    scroll-behavior: smooth;
+}
+ .navbar-light{
+    background-color: #01ff73;
+    box-shadow: 1px 1px 20px black;
+ }
+.nav-link{
+    padding-right: 5px;
+}
+.portfolio-img {
+    border-radius: 50%;
+    width: 300px; /* Set width to 100% to make it responsive */
+    height: auto;
+  
+   
+}
+.bg-green{
+    background-color: #104b2c;
+    color:rgba(255, 255, 255, 0.932);
+}
+.social-icons a{
+   color: #0C9048;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+.text-muted{
+    color: #0c9047c2;
+}
+.container-badge{
+    display: block;
+   width: 70%;
+   height: auto;
+   padding: 40px 0px 40px 0px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.mt-6{
+    margin-top: 15%;
+}
+.container-skills{
+    background-color: #0c90473b;
+    width: 100%;
+    height: auto;
+    
+}
+
+.container-skills img{
+    width: 35%;
+    height: auto;
+}
+
+.container-work{
+    width: 70%;
+    padding: 40px 0px 40px 0px;
+}
+
+.container-certi{
+    height: auto;
+}
+.carousel-item{
+    width:50%;
+    height: 50%;
+}
+.container-profile{
+    padding-top: 10%;
+}
+.container-project{
+    margin-bottom: 10%;
+    height: auto;
+}
+@media (max-width: 576px) {
+    .profile-name {
+        font-size: 1.5rem;
+    }
+    .social-icons a {
+        font-size: 1.2rem;
+    }
+
+    .portfolio-img {
+        border-radius: 50%;
+        width: 200px; /* Set width to 100% to make it responsive */
+        height: auto;
+      
+       
+    }
+    
+}
+.badge-img {
+    width: 50%; /* Default width for larger screens */
+}
+
+@media (max-width: 576px) { /* Apply when viewport width is less than or equal to 576px (small screens) */
+    .badge-img {
+        width: 120%; /* Resize images to 75% on smaller viewports */
+    }
+}
+.skill-img {
+    width: 100%; /* Default image size */
+}
+
+@media (max-width: 576px) {
+    .skill-img {
+        width: 75%; /* Resize images to 75% on smaller screens */
+        margin-top: 20%;
+    }
+}
+.freelancer {
+    width: 75%; /* Adjust as needed */
+}
+.utest {
+
+    width: 60%; /* Adjust as needed */
+}
+.text {
+    font-size: 1.1rem; /* Default font size */
+}
+
+@media (max-width: 576px) {
+    .text {
+        font-size: 0.9rem; /* Smaller font size for devices with width <= 576px */
+    }
+    .utest {
+        margin-bottom: 5%;
+        width: 60%; /* Adjust as needed */
+    }
+}
