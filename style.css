@@ -43,15 +43,21 @@ html {
     margin-top: 15%;
 }
 .container-skills{
-    background-color: #0c90473b;
-    width: 100%;
+    width: 70%;
     height: auto;
+   padding: 40px 0px 40px 0px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
     
 }
 
-.container-skills img{
+.container-skills .skill-list{
     width: 35%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(10%,-10%);
 }
 
 .container-work{
@@ -60,6 +66,7 @@ html {
 }
 
 .container-certi{
+    width: 70%;
     height: auto;
 }
 .carousel-item{
@@ -70,9 +77,11 @@ html {
     padding-top: 10%;
 }
 .container-project{
+    width: 70%;
     margin-bottom: 10%;
     height: auto;
 }
+
 @media (max-width: 576px) {
     .profile-name {
         font-size: 1.5rem;
@@ -114,7 +123,7 @@ html {
 }
 .utest {
 
-    width: 60%; /* Adjust as needed */
+    width: 50%; /* Adjust as needed */
 }
 .text {
     font-size: 1.1rem; /* Default font size */
@@ -128,4 +137,42 @@ html {
         margin-bottom: 5%;
         width: 60%; /* Adjust as needed */
     }
+}
+
+a{
+    text-decoration: none;
+}
+
+.text{
+    font-family: "Atkinson Hyperlegible Next", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+font-size: 16px;
+text-align: justify;
+
+}
+
+.text-justify {
+    text-align: justify;
+    text-indent: 3rem;
+}
+.contact-p{
+    font-family: "Sofia Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.contact-h1{
+    font-family: "Comfortaa", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contact-list{
+    width: 23%;
+    height: auto;
+    margin-top: 3rem;
+    margin-right:10%;
 }
