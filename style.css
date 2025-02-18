@@ -13,10 +13,11 @@ html {
     padding-right: 5px;
 }
 .portfolio-img {
-    border-radius: 50%;
-    width: 300px; /* Set width to 100% to make it responsive */
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    width: 280px; /* Set width to 100% to make it responsive */
     height: auto;
-  
+    
    
 }
 .bg-green{
@@ -74,7 +75,7 @@ html {
     height: 50%;
 }
 .container-profile{
-    padding-top: 10%;
+    padding-top: 5%;
 }
 .container-project{
     width: 70%;
