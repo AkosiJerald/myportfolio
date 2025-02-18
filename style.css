@@ -177,3 +177,9 @@ text-align: justify;
     margin-top: 3rem;
     margin-right:10%;
 }
+
+@media (max-width: 576px) {
+    body{
+        display: none;
+    }
+}
