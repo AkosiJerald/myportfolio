@@ -20,10 +20,7 @@ html {
     
    
 }
-.bg-green{
-    background-color: #104b2c;
-    color:rgba(255, 255, 255, 0.932);
-}
+
 .social-icons a{
    color: #0C9048;
     font-size: 1.5rem;
@@ -36,7 +33,7 @@ html {
     display: block;
    width: 70%;
    height: auto;
-   padding: 40px 0px 40px 0px;
+   
    margin-left: auto;
    margin-right: auto;
 }
@@ -44,12 +41,11 @@ html {
     margin-top: 15%;
 }
 .container-skills{
+    margin-top: 5%;
     width: 70%;
     height: auto;
-   padding: 40px 0px 40px 0px;
-   margin-left: auto;
-   margin-right: auto;
-   display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -59,6 +55,15 @@ html {
     margin-left: auto;
     margin-right: auto;
     transform: translate(10%,-10%);
+}
+@media (max-width: 576px) { /* Apply when viewport width is less than or equal to 576px (small screens) */
+    .container-skills .skill-list {
+        width: 100%;
+        transform: translate(0); /* Resize images to 75% on smaller viewports */
+    }
+    .container-skills{
+        margin-top: 0;
+    }
 }
 
 .container-work{
@@ -76,13 +81,20 @@ html {
 }
 .container-profile{
     padding-top: 5%;
+    
 }
+
 .container-project{
     width: 70%;
     margin-bottom: 10%;
     height: auto;
 }
 
+.about-me{
+    width: 75%;
+    margin-top: 5%;
+    font-size: 1.1rem;
+}
 @media (max-width: 576px) {
     .profile-name {
         font-size: 1.5rem;
@@ -92,11 +104,17 @@ html {
     }
 
     .portfolio-img {
-        border-radius: 50%;
+        border-bottom-right-radius: 10%;
+        border-bottom-left-radius: 10%;
         width: 200px; /* Set width to 100% to make it responsive */
         height: auto;
-      
+        
        
+    }
+    .about-me{
+        font-size: 0.9rem;
+        width: 100%;
+
     }
     
 }
@@ -126,10 +144,20 @@ html {
 
     width: 50%; /* Adjust as needed */
 }
-.text {
-    font-size: 1.1rem; /* Default font size */
-}
 
+.text{
+    font-family: "Atkinson Hyperlegible Next", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.1rem; 
+text-align: justify;
+
+}
+.contact-p{
+    font-family: "Atkinson Hyperlegible Next", serif;
+    font-size: 1.1rem; 
+}
 @media (max-width: 576px) {
     .text {
         font-size: 0.9rem; /* Smaller font size for devices with width <= 576px */
@@ -138,32 +166,23 @@ html {
         margin-bottom: 5%;
         width: 60%; /* Adjust as needed */
     }
+    .contact-p{
+        font-family: "Atkinson Hyperlegible Next", serif;
+        font-size: 0.4rem; 
+    }
 }
 
 a{
     text-decoration: none;
 }
 
-.text{
-    font-family: "Atkinson Hyperlegible Next", serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-font-size: 16px;
-text-align: justify;
 
-}
 
 .text-justify {
     text-align: justify;
     text-indent: 3rem;
 }
-.contact-p{
-    font-family: "Sofia Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
+
 .contact-h1{
     font-family: "Comfortaa", serif;
     font-optical-sizing: auto;
@@ -178,8 +197,9 @@ text-align: justify;
     margin-right:10%;
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     body{
         display: none;
     }
-}
+} */
+
