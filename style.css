@@ -68,7 +68,7 @@ html {
 
 .container-work{
     width: 70%;
-    padding: 40px 0px 40px 0px;
+    
 }
 
 .container-certi{
@@ -127,16 +127,9 @@ html {
         width: 120%; /* Resize images to 75% on smaller viewports */
     }
 }
-.skill-img {
-    width: 100%; /* Default image size */
-}
 
-@media (max-width: 576px) {
-    .skill-img {
-        width: 75%; /* Resize images to 75% on smaller screens */
-        margin-top: 20%;
-    }
-}
+
+
 .freelancer {
     width: 75%; /* Adjust as needed */
 }
@@ -168,7 +161,7 @@ text-align: justify;
     }
     .contact-p{
         font-family: "Atkinson Hyperlegible Next", serif;
-        font-size: 0.4rem; 
+        font-size: 0.5rem; 
     }
 }
 
